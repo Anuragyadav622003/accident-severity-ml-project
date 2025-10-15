@@ -1,0 +1,23 @@
+{
+  "model_info": {
+    "best_model": "XGBoost",
+    "performance": {
+      "Accuracy": 0.8506493506493507,
+      "Precision": 0.8158749418739828,
+      "Recall": 0.8506493506493507,
+      "F1-Score": 0.8048533272443458
+    },
+    "target_classes": [
+      "Fatal injury",
+      "Serious Injury",
+      "Slight Injury"
+    ],
+    "feature_count": 33
+  },
+  "training_date": "2025-10-15 15:08:36",
+  "dataset_info": {
+    "total_samples": 12316,
+    "training_samples": 9852,
+    "test_samples": 2464
+  }
+}
