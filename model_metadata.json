@@ -1,20 +1,39 @@
 {
   "model_info": {
-    "best_model": "XGBoost",
+    "best_model": "Random Forest",
     "performance": {
-      "Accuracy": 0.8506493506493507,
-      "Precision": 0.8158749418739828,
-      "Recall": 0.8506493506493507,
-      "F1-Score": 0.8048533272443458
+      "Accuracy": 0.8469967532467533,
+      "Precision": 0.8578541151047245,
+      "Recall": 0.8469967532467533,
+      "F1-Score": 0.7780375881541076
     },
     "target_classes": [
       "Fatal injury",
       "Serious Injury",
       "Slight Injury"
     ],
-    "feature_count": 33
+    "feature_count": 17,
+    "required_features": [
+      "Hour_of_Day",
+      "Time_of_Day",
+      "Age_band_of_driver",
+      "Sex_of_driver",
+      "Educational_level",
+      "Driving_experience",
+      "Type_of_vehicle",
+      "Area_accident_occured",
+      "Road_surface_conditions",
+      "Light_conditions",
+      "Weather_conditions",
+      "Number_of_vehicles_involved",
+      "Number_of_casualties",
+      "Risk_Score",
+      "Day_of_week",
+      "Service_year_of_vehicle",
+      "Experience_Level"
+    ]
   },
-  "training_date": "2025-10-15 15:28:04",
+  "training_date": "2025-10-15 15:59:09",
   "dataset_info": {
     "total_samples": 12316,
     "training_samples": 9852,
